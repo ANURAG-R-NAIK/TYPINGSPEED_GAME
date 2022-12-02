@@ -63,7 +63,8 @@ etime=time()
 time = round(totaltime(stime,etime),2)
 speed = speed(inpromt,stime,etime)
 errors = terror(prompt)
-                   
+#print all the values back
+                
 print("########################################")                   
 print("total time taken: ", time, "seconds")
 print("your avg typing speed was ", speed, "words per minute")
